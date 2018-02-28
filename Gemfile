@@ -36,6 +36,8 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rubocop', '~> 0.52.1', require: false
+
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
@@ -52,3 +54,19 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'acts_as_list', '~> 0.9.10'
+gem 'administrate', '~> 0.9.0'
+gem 'devise', '~> 4.4', '>= 4.4.1'
+gem 'devise-bootstrapped', github: 'excid3/devise-bootstrapped', branch: 'bootstrap4'
+gem 'devise_masquerade', '~> 0.6.1'
+gem 'font-awesome-sass', '~> 5.0', '>= 5.0.6.2'
+gem 'gravatar_image_tag', '~> 1.2'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'bootstrap', '~> 4.0'
+gem 'webpacker', '~> 3.2', '>= 3.2.2'
+gem 'sidekiq', '~> 5.1', '>= 5.1.1'
+gem 'foreman', '~> 0.84.0'
+gem 'omniauth-facebook', '~> 4.0'
+gem 'omniauth-github', '~> 1.3'
+gem 'omniauth-twitter', '~> 1.4'
